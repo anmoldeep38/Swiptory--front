@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'https://swiptory-i2xk.onrender.com',
         secure: false,
       },
     },
